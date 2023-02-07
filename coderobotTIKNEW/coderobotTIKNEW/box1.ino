@@ -1,0 +1,25 @@
+void Box1()
+{
+ TrackSpeedTimer(AccSpeed,800);
+ TrackLane_S();
+ TurnRight();
+ BackwardBalance();
+ TrackSpeedTimer(RobotSpeed,600);
+ TrackLane_S();
+ TurnRight();
+ BackwardBalance();
+ TrackSpeedTimer(RobotSpeed,300);
+ TrackLane_S();
+ TurnRight();
+ BackwardBalance();
+ TrackSpeedTimer(RobotSpeed,300);
+ TrackLane_S();
+ TurnLeft();
+ BackwardBalance();
+ TrackSpeedTimer(RobotSpeed,600);
+ TrackLane_S();
+ Backward(RobotSpeed,300);
+//TurnRight();
+//TrackLane_Stop();
+//TurnLeft();
+}
